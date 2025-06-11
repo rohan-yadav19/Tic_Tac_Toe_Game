@@ -3,7 +3,8 @@ let resetbtn = document.querySelector("#reset-btn");
 let newgamebtn = document.querySelector("#new-btn");
 let msgcontainer = document.querySelector(".msg-container");
 let msg = document.querySelector("#msg");
-let turnO = true; //player x,playero
+let turnO = true;
+let count = 0; //player x,playero
 const winspattern = [
   [0, 1, 2],
   [0, 3, 6],
